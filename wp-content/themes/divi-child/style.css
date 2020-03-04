@@ -256,7 +256,14 @@ body .container #main-footer {
     display: none;
 }
 
-
+body #main-header  {
+	background-color: transparent;
+	box-shadow: none !important;
+	padding-top: 1%; 
+}
+body #main-header .container clearfix .et_menu_container{
+	padding-top: 1%; 
+}
 .et_fixed_nav #et-top-navigation{
 	margin-top: 22px;
 	margin-bottom: 14px;
@@ -278,19 +285,29 @@ body .container #main-footer {
 #et_search_icon:before {
     position: absolute;
     top: -3px;
-    left: 0;
+    left: -13px;
     font-size: 100%;
     content: "\55";
+
+}
+#et_search_icon:after{
+    position: absolute;
+    top: -8px;
+    left: 3px;
+    font-size: 100%;
     content: "search";
     font-family: 'open sans' !important;
-
 }
 #main-header:after{
  border:none;
 }
+/*
 body #main-header, #main-header .nav li ul, .et-search-form, #main-header .et_mobile_menu{
 
   background-image: linear-gradient(to right, #b498fb , #d4aaf9) !important;
+}*/
+#page-container{
+	padding-top:0 !important;
 }
 body .off{
 	color:white;
