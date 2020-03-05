@@ -128,7 +128,7 @@ body .et_overlay:before {
     .et_shop_image:hover .et_overlay{
     	border: none;
     	box-shadow: 0px 5px 77.5px 2.5px rgba(237,235,253,0.75);
-    	background-color: rgb(255, 255, 255,0.7);
+    	/*background-color: rgb(255, 255, 255,0.7);*/
     }
 
    /* product title */
@@ -348,4 +348,62 @@ body #contactform  input.text, input.title, input[type=email], input[type=passwo
     color: #4e4e4e;
     background-color: #fff;
     width: 50%;
+} /* add to cart page */
+.woocommerce-breadcrumb .et_full_width_page #left-area, .et_no_sidebar #left-area {
+    float: none;
+    width: 100%!important;
+    padding-top: 5% !important;
+    }
+   body .entry-summary p.price span {
+    font-size: 26px!important;
+    color: #caa4fa;
+}
+body .quantity .woocommerce-page button.button, .woocommerce-page button.button.alt{
+	color: #caa4fa;
+}
+body .posted_in a {
+    color: #caa4fa;
+    font-weight: 500;
+    text-decoration: none;
+}
+body .tagged_as a {
+    color: #caa4fa;
+    text-decoration: none;
+    }
+body .quantity{
+	background-color: #caa4fa;
+}
+/* view cart */
+body .woocommerce-notices-wrapper .woocommerce-message{
+	background-color: #caa4fa;
+}
+body .coupon .coupon_code .woocommerce-page .et_pb_button_helper_class button.button{
+	color: #caa4fa;
+}
+body 
+
+#et_search_icon:hover, #top-menu li.current-menu-ancestor>a, #top-menu li.current-menu-item>a, .bottom-nav li.current-menu-item>a, .comment-reply-link, .entry-summary p.price ins, .et-social-icon a:hover, .et_password_protected_form .et_submit_button, .form-submit .et_pb_button, .mobile_menu_bar:after, .mobile_menu_bar:before, .nav-single a, .posted_in a, .woocommerce #content div.product p.price, .woocommerce #content div.product span.price, .woocommerce #content input.button, .woocommerce #content input.button.alt, .woocommerce #content input.button.alt:hover, .woocommerce #content input.button:hover, .woocommerce #respond input#submit, .woocommerce #respond input#submit.alt, .woocommerce #respond input#submit.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce .star-rating span:before, .woocommerce a.button, .woocommerce a.button.alt, .woocommerce a.button.alt:hover, .woocommerce a.button:hover, .woocommerce button.button, .woocommerce button.button.alt, .woocommerce button.button.alt:hover, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce input.button, .woocommerce input.button.alt, .woocommerce input.button.alt:hover, .woocommerce input.button:hover, .woocommerce-page #content div.product p.price, .woocommerce-page #content div.product span.price, .woocommerce-page #content input.button, .woocommerce-page #content input.button.alt, .woocommerce-page #content input.button.alt:hover, .woocommerce-page #respond input#submit, .woocommerce-page #respond input#submit.alt, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page .star-rating span:before, .woocommerce-page a.button, .woocommerce-page a.button.alt, .woocommerce-page a.button.alt:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button, .woocommerce-page button.button.alt, .woocommerce-page button.button.alt:hover, .woocommerce-page button.button:hover, .woocommerce-page div.product p.price, .woocommerce-page div.product span.price, .woocommerce-page input.button, .woocommerce-page input.button.alt, .woocommerce-page input.button.alt:hover, .woocommerce-page input.button:hover, .wp-pagenavi a:hover, .wp-pagenavi span.current {
+	color: #caa4fa;
+}
+body .content-area .et_right_sidebar #left-area {
+    float: left;
+    padding-right: 5.5%;
+    padding-top: 2%;
+    }
+/* bags and purses */
+body #container #content-area .woocommerce-breadcrumb .et_right_sidebar #left-area{
+	padding-top: 0.5%;
+}
+body .woocommerce .woocommerce-form-coupon-toggle .woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message{
+	background-color: #caa4fa;
+}
+body .clearfix .woocommerce-product-gallery .woocommerce-product-gallery--with-images .woocommerce-product-gallery--columns-4 .images{
+	opacity: 1 !important;
+    transition: none !important;
+     transition: color 0;
+    visibility: visible;
+}
+body .woocommerce-product-gallery .woocommerce-product-gallery--with-images .woocommerce-product-gallery--columns-4 .images{
+	opacity: 1 !important;
+    transition: none !important;
 }
