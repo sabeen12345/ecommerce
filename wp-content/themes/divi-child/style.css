@@ -32,10 +32,7 @@ body #tabs .et_pb_all_tabs .et_pb_active_content {
 	background-color: #ffffff;
 
 }
-/*
-.et_contact_bottom_container{
-	display:none;
-}*/
+
 .et_pb_contact_right {
 	display:none;
 }
@@ -56,38 +53,10 @@ body #tabs .et_pb_all_tabs .et_pb_active_content {
 	right:14%;
 	top:52%;
 }
-/* footer 
-#main-footer {
-    background-color: white;
-}
-.footer-widget{
-	display: none;
-}
-header
-#et-top-navigation{
-	padding-left: 320px;
-	padding-right: 0px;
-	margin-right: 0px;
-	float:right;
-    border-radius: 50px;
-    border: 1px solid black;
-    width: 30px;
-    height:40px;
-    margin-top: 0.7%;
-    background-color: white;
-    display: flex;
-}
-#top-menu-nav{
-	    margin-left: -96px;
-    margin-top: -8px;
-}
-#main-header{
-	height:60px;
-}
-.et-cart-info span:before {
-    display: none;
-    }
-*/
+
+
+
+
 /* shop*/
 
 body .et_overlay:before {
@@ -147,10 +116,7 @@ body .et_overlay:before {
     text-align: center;
 
 }
-/*
-.woocommerce ul.products li.product .price, .woocommerce ul.products li.product .price del, .woocommerce-page ul.products li.product .price, .woocommerce-page ul.products li.product .price del : hover {
-    color: #8c84f9!important;
-}*/
+
 body .price :hover{
 	color: #8c84f9!important;
 }
@@ -403,7 +369,50 @@ body .clearfix .woocommerce-product-gallery .woocommerce-product-gallery--with-i
      transition: color 0;
     visibility: visible;
 }
-body .woocommerce-product-gallery .woocommerce-product-gallery--with-images .woocommerce-product-gallery--columns-4 .images{
+.woocommerce div.product div.images.woocommerce-product-gallery{
 	opacity: 1 !important;
     transition: none !important;
 }
+.woocommerce .woocommerce-breadcrumb {
+    margin: 40px 0;
+    padding: 0;
+     display: inline-block;
+    width: 100%;
+    font-size: .92em;
+    color: #767676;
+}
+.woocommerce-notices-wrapper{
+	    width: 100%;
+    display: inline-block;
+}
+.woocommerce div.product{
+	display: inline-block;
+}
+}
+.et-social-icons {
+    float: right;
+    position: absolute;
+    bottom: 40px;
+    left: 370px;
+    margin-bottom: 16px;
+    font-size: 55px;
+}
+#et-footer-nav {
+    background-color: #fff;
+    margin-left: 16%;
+    margin-top: -85px;
+    margin-bottom: 45px;
+    }
+ #footer-info {
+    padding-bottom: 8px;
+    color: #666;
+    text-align: center;
+    margin-left: 35%;
+}
+.footer-widget h4 {
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: -20px;
+    padding-bottom: :0px;
+    }
